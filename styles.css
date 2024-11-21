@@ -1,0 +1,82 @@
+/* .position {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.position-block1 {
+    background-color: aqua;
+}
+.position-block2 {
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.position-block3 {
+    background-color: brown;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    z-index: 0;
+}
+.position-block4 {
+    background-color: yellowgreen;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 8px 8px 8px gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-success {
+    background-color: green;
+    border: 2px solid darkgreen;
+}
+.btn-success:hover {
+    background-color: darkgreen;
+    border: 2px solid #003500;
+}
+.btn-close {
+    background-color: red;
+    border: 2px solid brown;
+
+}
+.btn-close:hover {
+    background-color: #e01a1a;
+    border: 2px solid #8f1616;
+}
